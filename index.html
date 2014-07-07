@@ -4,25 +4,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>I'm Richard, I Build</title>
 <link href="stylesheets/style.css.scss" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-<script type="text/javascript" src="javascripts/main.js"></script>
-<script type="text/javascript" src="javascripts/jquery.localscroll-1.2.7-min.js"></script>
-<script type="text/javascript" src="javascripts/jquery.scrollTo-1.4.2-min.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-  $('#nav').localScroll(1000);
-
-  //.parallax(xPosition, speedFactor, outerHeight) options:
-  //xPosition - Horizontal position of the element
-  //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
-  //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-  $('#intro').parallax("50%", 0.1);
-  $('#second').parallax("50%", 0.1);
-  $('.bg').parallax("50%", 0.4);
-  $('#third').parallax("50%", 0.3);
-
-})
-</script>
 </head>
 
 <body>
@@ -78,5 +59,25 @@ $(document).ready(function(){
           </div>
       </div> <!--.partition-->
   </div> <!--#third-->
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/main.js"></script>
+  <script type="text/javascript" src="javascripts/jquery.localscroll-1.2.7-min.js"></script>
+  <script type="text/javascript" src="javascripts/jquery.scrollTo-1.4.2-min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('#nav').localScroll(1000);
+
+    //.parallax(xPosition, speedFactor, outerHeight) options:
+    //xPosition - Horizontal position of the element
+    //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+    //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+    $('#intro').parallax("50%", 0.1);
+    $('#second').parallax("50%", 0.1);
+    $('.bg').parallax("50%", 0.4);
+    $('#third').parallax("50%", 0.3);
+
+  })
+  </script>
 </body>
 </html>
