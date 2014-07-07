@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>I'm Richard, I Build</title>
+<link href="stylesheets/style.css.scss" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="javascripts/main.js"></script>
+<script type="text/javascript" src="javascripts/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="javascripts/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('#nav').localScroll(1000);
+
+  //.parallax(xPosition, speedFactor, outerHeight) options:
+  //xPosition - Horizontal position of the element
+  //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+  //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+  $('#intro').parallax("50%", 0.1);
+  $('#second').parallax("50%", 0.1);
+  $('.bg').parallax("50%", 0.4);
+  $('#third').parallax("50%", 0.3);
+
+})
+</script>
+</head>
+
+<body>
+  <ul id="nav">
+    <li><a href="#intro" title="Next Section">Me</a></li>
+    <li><a href="#second" title="Next Section">My Work</a></li>
+    <li><a href="#third" title="Next Section">Contact</a></li>
+  </ul>
+
+  <div id="intro">
+    <div class="partition"><div class="me"></div>
+      <div class="float-left">
+        <h2>Blurb about me</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius error doloribus commodi praesentium, rem voluptas quae aspernatur temporibus iusto animi suscipit, qui mollitia illum sed. Delectus quos eos quasi dolorum?</p>
+      </div><!-- .float-left -->
+
+    </div> <!--.partition-->
+  </div> <!--#intro-->
+
+  <div id="second">
+    <div class="partition">
+    <h2>My Work</h2>
+      <div class="projects float-left">
+        <div class="thumbnail" id="wine-oh" style="opacity: 1;">
+            <a href="http://wine-oh.herokuapp.com" rel="bookmark">
+              <img width="300" height="175" src="images/wine-oh.png" class="thumbnail-image" alt="wine-oh application" title="wine-OH!"></a>
+        </div>
+        <div class="work-description">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi labore incidunt placeat quibusdam mollitia officia cupiditate esse ea velit suscipit necessitatibus distinctio, consequatur libero neque quae, commodi vel culpa ratione.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris, volutpat elementum enim urna eget odio. Donec egestas aliquet facilisis. Nunc eu nunc eget neque ornare fringilla. Nam vel sodales lectus. Nulla in pellentesque eros. Donec ultricies, enim vitae varius cursus, risus mauris iaculis neque, euismod sollicitudin metus erat vitae sapien. Sed pulvinar.</p>
+        </div> <!--.work-description-->
+      </div> <!--.projects .float-left -->
+      <div class="projects float-left">
+        <div class="thumbnail" id="pokemon-live" style="opacity: 1;">
+            <a href="http://pokemon-live.herokuapp.com" rel="bookmark">
+              <img width="300" height="175" src="images/pokemon.png" class="thumbnail-image" alt="Pokemon Live application" title="wine-OH!"></a>
+        </div>
+        <div class="work-description">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi labore incidunt placeat quibusdam mollitia officia cupiditate esse ea velit suscipit necessitatibus distinctio, consequatur libero neque quae, commodi vel culpa ratione.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris, volutpat elementum enim urna eget odio. Donec egestas aliquet facilisis. Nunc eu nunc eget neque ornare fringilla. Nam vel sodales lectus. Nulla in pellentesque eros. Donec ultricies, enim vitae varius cursus, risus mauris iaculis neque, euismod sollicitudin metus erat vitae sapien. Sed pulvinar.</p>
+        </div> <!--.work-description-->
+      </div> <!--.projects .float-left -->
+    </div> <!--.partition-->
+  </div> <!--#second-->
+
+  <div id="third">
+    <div class="partition">
+        <div class="float-left">
+            <h2>Contact</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi neque enim delectus corporis maxime veniam hic perferendis qui sunt quisquam voluptates minus officiis molestias culpa reprehenderit dolorum quasi, aut eligendi.
+              </p>
+          </div>
+      </div> <!--.partition-->
+  </div> <!--#third-->
+</body>
+</html>
