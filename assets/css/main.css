@@ -690,6 +690,16 @@ a:after {
 	}
 }
 @media all and (max-width:600px) {
+
+  .col-xs-6{
+    width: 325px;
+    margin-left: 20px;
+  }
+  .work {
+    height: 200px;
+    margin-left: 5%;
+  }
+
   .content h1 {
     font-size: 70px;
   }
