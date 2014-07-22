@@ -1,83 +1,345 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>I'm Richard, I Build</title>
-<link href="stylesheets/style.css.scss" rel="stylesheet" type="text/css" />
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SHIELD - Free Bootstrap 3 Theme">
+    <meta name="author" content="Carlos Alvarez - Alvarez.is - blacktie.co">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-<body>
-  <ul id="nav">
-    <li><a href="#intro" title="Next Section">Me</a></li>
-    <li><a href="#second" title="Next Section">My Work</a></li>
-    <li><a href="#third" title="Next Section">Contact</a></li>
-  </ul>
+    <title>I'm Richard, I Design</title>
 
-  <div id="intro">
-    <div class="partition"><div class="me"></div>
-      <div class="float-left">
-        <h2>Blurb about me</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius error doloribus commodi praesentium, rem voluptas quae aspernatur temporibus iusto animi suscipit, qui mollitia illum sed. Delectus quos eos quasi dolorum?</p>
-      </div><!-- .float-left -->
+    <!-- Bootstrap core CSS -->
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/js/retina.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-    </div> <!--.partition-->
-  </div> <!--#intro-->
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link href="assets/css/animate-custom.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-  <div id="second">
-    <div class="partition">
-    <h2>My Work</h2>
-      <div class="projects float-left">
-        <div class="thumbnail" id="wine-oh" style="opacity: 1;">
-            <a href="http://wine-oh.herokuapp.com" rel="bookmark">
-              <img width="300" height="175" src="images/wine-oh.png" class="thumbnail-image" alt="wine-oh application" title="wine-OH!"></a>
+
+
+    <!-- <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'> -->
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
+
+
+  	<div id="navbar-main">
+      <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="nav-home">RH</span>
+          </button>
         </div>
-        <div class="work-description">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi labore incidunt placeat quibusdam mollitia officia cupiditate esse ea velit suscipit necessitatibus distinctio, consequatur libero neque quae, commodi vel culpa ratione.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris, volutpat elementum enim urna eget odio. Donec egestas aliquet facilisis. Nunc eu nunc eget neque ornare fringilla. Nam vel sodales lectus. Nulla in pellentesque eros. Donec ultricies, enim vitae varius cursus, risus mauris iaculis neque, euismod sollicitudin metus erat vitae sapien. Sed pulvinar.</p>
-        </div> <!--.work-description-->
-      </div> <!--.projects .float-left -->
-      <div class="projects float-left">
-        <div class="thumbnail" id="pokemon-live" style="opacity: 1;">
-            <a href="http://pokemon-live.herokuapp.com" rel="bookmark">
-              <img width="300" height="175" src="images/pokemon.png" class="thumbnail-image" alt="Pokemon Live application" title="wine-OH!"></a>
-        </div>
-        <div class="work-description">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi labore incidunt placeat quibusdam mollitia officia cupiditate esse ea velit suscipit necessitatibus distinctio, consequatur libero neque quae, commodi vel culpa ratione.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris, volutpat elementum enim urna eget odio. Donec egestas aliquet facilisis. Nunc eu nunc eget neque ornare fringilla. Nam vel sodales lectus. Nulla in pellentesque eros. Donec ultricies, enim vitae varius cursus, risus mauris iaculis neque, euismod sollicitudin metus erat vitae sapien. Sed pulvinar.</p>
-        </div> <!--.work-description-->
-      </div> <!--.projects .float-left -->
-    </div> <!--.partition-->
-  </div> <!--#second-->
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+			      <li><a href="#intro" class="smoothScroll">Intro</a></li>
+						<li><a href="#about" class="smoothScroll">About</a></li>
+						<li><a href="#skills" class="smoothScroll">Skills</a></li>
+						<li><a href="#portfolio" class="smoothScroll">Work</a></li>
+						<li><a href="#contact" class="smoothScroll">Contact</a></li>
+					</ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    </div>
 
-  <div id="third">
-    <div class="partition">
-        <div class="float-left">
-            <h2>Contact</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi neque enim delectus corporis maxime veniam hic perferendis qui sunt quisquam voluptates minus officiis molestias culpa reprehenderit dolorum quasi, aut eligendi.
-              </p>
-          </div>
-      </div> <!--.partition-->
-  </div> <!--#third-->
+	<!-- ==== header ==== -->
+		<div class="header-wrap" id="intro" name="intro">
+			<div class="blur"></div>
+			<div class="content">
+				<h1>RICHARD HESSLER</h1>
+					<p>web developer</p>
+				</div>
+	   </div><!-- .background-img -->
 
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/main.js"></script>
-  <script type="text/javascript" src="javascripts/jquery.localscroll-1.2.7-min.js"></script>
-  <script type="text/javascript" src="javascripts/jquery.scrollTo-1.4.2-min.js"></script>
-  <script type="text/javascript">
-  $(document).ready(function(){
-    $('#nav').localScroll(1000);
+		<!-- ==== ABOUT ==== -->
+		<div class="container" id="about" name="about">
+			<div class="row white">
+			<br>
+				<h1 class="centered">WHO I AM</h1>
+				<hr>
+  				<img class="intro-image desaturate" src="assets/img/portfolio/me.png">
 
-    //.parallax(xPosition, speedFactor, outerHeight) options:
-    //xPosition - Horizontal position of the element
-    //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
-    //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-    $('#intro').parallax("50%", 0.1);
-    $('#second').parallax("50%", 0.1);
-    $('.bg').parallax("50%", 0.4);
-    $('#third').parallax("50%", 0.3);
+				<div class="col-lg-6">
+					<p class="about-para">HI! I'm Richard - an analytically-minded engineer who approaches problems from a quantitative and qualitative viewpoint.  My professional ambitions and aspirations are fueled by my passion and obsession for web development and everything tech related. With that said, I do not believe I would have made it half as far as I have today without my sense of humor or ability to laugh at myself from time-to-time.</p>
+				</div><!-- col-lg-6 -->
 
-  })
-  </script>
-</body>
+				<div class="col-lg-6">
+					<p class="about-para">In my past life I was a Civil Engineer and now have turned full-stack web developer thanks to the help of the Web Development Immersive course from <a href="http://generalassemb.ly/washington-dc">General Assembly</a> in Washington, D.C., from which I have recently graduated. This course has rekindled my love for programming and inspired me to learn anything and everything there is to learn about the industry. When I'm not working through a coding problem or attending local tech meetups, you can usually find me cooking, biking, making wine, or studying for my next level of Sommelier certifications.</p>
+				</div><!-- col-lg-6 -->
+			</div><!-- row -->
+		</div><!-- container -->
+
+
+		<div class="container skills" id="skills" name="skills">
+			<br>
+			<div class="row white centered">
+				<h1 class="centered">WHAT I KNOW</h1>
+				<hr>
+				<br>
+				<br>
+				<div class="work col-lg-2 col-sm-3 col-xs-4 centered">
+					<img class="img img-thumbnail" src="assets/img/skills/header-ruby-logo.png" height="120px" width="120px" alt="ruby programming language icon">
+					<br>
+					<h4><b>Ruby</b></h4>
+				</div><!-- col-lg-3 -->
+
+				<div class="work col-lg-2 col-sm-3 col-xs-4 centered">
+					<img class="img img-thumbnail" src="assets/img/skills/rails.png" height="120px" width="120px" alt="ruby on rails icon">
+					<br>
+					<h4><b>Ruby on Rails</b></h4>
+				</div><!-- col-lg-3 -->
+
+				<div class="work col-lg-2 col-sm-3 col-xs-4 centered">
+					<img class="img img-thumbnail" src="assets/img/skills/javascript.png" height="120px" width="120px" alt="javascript icon">
+					<br>
+					<h4><b>JavaScript</b></h4>
+				</div><!-- col-lg-3 -->
+
+				<div class="work col-lg-2 col-sm-3 col-xs-4 centered">
+					<img class="img img-thumbnail" src="assets/img/skills/jQuery.png" height="120px" width="120px" alt="javascript icon">
+					<br>
+					<h4><b>jQuery</b></h4>
+				</div><!-- col-lg-3 -->
+
+				<div class="work col-lg-2 col-sm-3 col-xs-4 centered">
+					<img class="img img-thumbnail" src="assets/img/skills/d3.png" height="120px" width="120px" alt="javascript icon">
+					<br>
+					<h4><b>D3</b></h4>
+				</div><!-- col-lg-3 -->
+
+				<div class="work col-lg-2 col-sm-3 col-xs-4 centered">
+					<img class="img img-thumbnail" src="assets/img/skills/postgres.png" height="120px" width="120px" alt="javascript icon">
+					<br>
+					<h4><b>PostgreSQL</b></h4>
+				</div><!-- col-lg-3 -->
+
+				<div class="work col-lg-2 col-sm-3 col-xs-4 centered">
+					<img class="img img-thumbnail" src="assets/img/skills/redis.png" height="120px" width="120px" alt="javascript icon">
+					<br>
+					<h4><b>Redis</b></h4>
+				</div><!-- col-lg-3 -->
+
+				<div class="work col-lg-2 col-sm-3 col-xs-4 centered">
+					<img class="img img-thumbnail" src="assets/img/skills/websockets.png" height="120px" width="120px" alt="javascript icon">
+					<br>
+					<h4><b>WebSockets</b></h4>
+				</div><!-- col-lg-3 -->
+
+				<div class="work col-lg-2 col-sm-3 col-xs-4 centered">
+					<img class="img img-thumbnail" src="assets/img/skills/backbone.png" height="120px" width="120px" alt="javascript icon">
+					<br>
+					<h4><b>Backbone.js</b></h4>
+				</div><!-- col-lg-3 -->
+
+				<div class="work col-lg-2 col-sm-3 col-xs-4 centered">
+					<img class="img img-thumbnail" src="assets/img/skills/html5.png" height="120px" width="120px" alt="javascript icon">
+					<br>
+					<h4><b>HTML5</b></h4>
+				</div><!-- col-lg-3 -->
+
+				<div class="work col-lg-2 col-sm-3 col-xs-4 centered">
+					<img class="img img-thumbnail" src="assets/img/skills/css3.jpg" height="120px" width="120px" alt="javascript icon">
+					<br>
+					<h4><b>CSS3</b></h4>
+				</div><!-- col-lg-3 -->
+
+				<div class="work col-lg-2 col-sm-3 col-xs-4 centered">
+					<img class="img img-thumbnail" src="assets/img/skills/json.gif" height="120px" width="120px" alt="javascript icon">
+					<br>
+					<h4><b>JSON</b></h4>
+				</div><!-- col-lg-3 -->
+
+
+			</div><!-- row -->
+		</div><!-- container -->
+
+		<!-- ==== PORTFOLIO ==== -->
+		<div class="container" id="portfolio " name="portfolio">
+		<br>
+			<div class="row">
+				<br>
+				<h1 class="centered">WHAT I MAKE</h1>
+				<hr>
+				<br>
+				<br>
+			</div><!-- /row -->
+			<div class="container">
+			<div class="row">
+
+				<!-- PORTFOLIO IMAGE 1 -->
+				<div class="col-md-4 col-sm-8 col-xs-8">
+			    	<div class="grid mask">
+						<figure>
+							<img class="project-image img-responsive" src="assets/img/portfolio/wine-oh.png" alt="">
+							<figcaption>
+								<h5>wine-OH!</h5>
+								<a data-toggle="modal" href="#myModal1" class="btn btn-primary btn-lg">Take a Look</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+
+			 <!-- on click shows preview of app -->
+			  <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			    <div class="modal-dialog">
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			          <h4 class="modal-title">wine-OH!</h4>
+			        </div>
+			        <div class="modal-body">
+			          <p><img class="img-responsive" src="assets/img/portfolio/wine-oh.png" alt=""></p>
+			          <p>wine-oh! is a comprehensive wine application designed to allow a user to search for wines, find professional reviews of wines, technical details, price, food pairings, and more. The application will also allow you to locate a store to purchase a specific wine near your zip code.</p>
+			          <p><b><a href="https://wine-oh.herokuapp.com/">Let's Drink!</a></b></p>
+			        </div>
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        </div>
+			      </div><!-- /.modal-content -->
+			    </div><!-- /.modal-dialog -->
+			  </div><!-- /.modal -->
+
+
+				<!-- PORTFOLIO IMAGE 2 -->
+				<div class="col-md-4 col-sm-8 col-xs-8">
+			    	<div class="grid mask">
+						<figure>
+							<img class="project-image img-responsive" src="assets/img/portfolio/pokemon.png" alt="">
+							<figcaption>
+								<h5>Pokémon LIVE!</h5>
+								<a data-toggle="modal" href="#myModal2" class="btn btn-primary btn-lg">Take a Look!</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+
+
+				<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			    <div class="modal-dialog">
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			          <h4 class="modal-title">Pokémon LIVE!</h4>
+			        </div>
+			        <div class="modal-body">
+			          <p><img class="img-responsive" src="assets/img/portfolio/pokemon.png" alt=""></p>
+			          <p>Pokemon LIVE! is a real-time application which allows users (trainers) to interact directly with one another in the battle preperation(lobby) area. Trainers can communicate in an open chat format, and challenge one another to duels. These duels take place in the pokemon battlefield and consist of a single-pokemon battle between trainers.</p>
+			          <p><b><a href="http://pokemon-live.herokuapp.com/">Time to Duel!</a></b></p>
+			        </div>
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        </div>
+			      </div><!-- /.modal-content -->
+			    </div><!-- /.modal-dialog -->
+			  </div><!-- /.modal -->
+
+				<!-- PORTFOLIO IMAGE 3 -->
+				<div class="col-md-4 col-sm-8 col-xs-8">
+		    	<div class="grid mask">
+						<figure>
+							<img class="project-image img-responsive" src="assets/img/portfolio/linkup.jpg" alt="">
+							<figcaption>
+								<h5>LinkUp</h5>
+								<a data-toggle="modal" href="#myModal3" class="btn btn-primary btn-lg">Take a Look</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    </div><!-- /grid-mask -->
+				</div><!-- /col -->
+			</div><!-- /row -->
+
+			<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-dialog">
+		      <div class="modal-content">
+		        <div class="modal-header">
+		          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		          <h4 class="modal-title">LinkUp</h4>
+		        </div>
+			        <div class="modal-body">
+			          <p><img class="img-responsive" src="assets/img/portfolio/linkup.jpg" alt=""></p>
+			          <p>LinkUp is the 'Tinder for start-up jobs.' The goal for this project was to recreate a Tinder-like experience where a user can search job listings and make a judgement call whether they're 'Interested' or 'Not Interested.'  The 'Interested' job opportunities are saved to a User's account for further review and potential application submissions.</p>
+			          <p><b><a href="http://linkup.herokuapp.com/">Visit Site</a></b></p>
+			        </div>
+	        	<div class="modal-footer">
+	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        	</div>
+		      </div> <!-- .modal-content -->
+		    </div><!-- .modal-dialog -->
+		  </div><!-- .modal -->
+			<!-- </div>/row -->
+			<br>
+			<br>
+		</div><!-- /row -->
+	</div><!-- /container -->
+
+		<!-- ==== WHITEWRAP ==== -->
+		<div id="whitewrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 centered">
+						<img class="img-responsive" src="assets/img/macbook.png" align="">
+					</div>
+					<div class="col-lg-4">
+						<h2>I CAN HELP</h2>
+						<p>My goal is to join forces with a dev shop whose ideals resonate with my personal interests.  I want to put my talents to good use and add value to a cohesive team! </br> </br>If that sounds like you, or if you're interested in joining forces to work on private projects, I'm always available to chat.</p>
+						<!-- <p><a class="btn btn-success">Lets Chat</a></p> -->
+					</div>
+				</div><!-- row -->
+			</div>
+			<br>
+			<br>
+		</div><!-- whitewrap -->
+
+		<div class="container" id="contact" name="contact">
+			<div class="row">
+			<br>
+				<h1 class="centered">WHERE TO FIND ME</h1>
+				<hr>
+				<br>
+				<div class="contact col-lg-12">
+						<ul class="list-inline">
+							<li><span class="icon icon-mobile"></span>941.321.1524<br/></li>
+							<li><span class="icon icon-github"></span><a href="https://github.com/richessler">richessler</a><br/></li>
+							<li><span class="icon icon-twitter"></span><a href="https://twitter.com/RJHessler"> @RJHessler </a><br/></li>
+							<li><span class="fa fa-linkedin-square"></span><a href="https://www.linkedin.com/pub/richard-hessler/3b/89a/433"> Richard Hessler </a></li>
+						</ul>
+				</div><!-- col -->
+
+				<!-- <div class="col-lg-4">
+					<h3>Support Us</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				</div>col -->
+			</div>
+		</div>
+
+		<div id="footerwrap">
+			<div class="container">
+			</div>
+		</div>
+
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/retina.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-func.js"></script>
+	<script type="text/javascript" src="javascripts/main.js"></script>
+  </body>
 </html>
