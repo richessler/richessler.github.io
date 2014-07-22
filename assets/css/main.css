@@ -125,6 +125,17 @@ body {
     margin: 3% auto;
 }
 
+.work-1,
+.work-2,
+.work-3 {
+  width: 45%;
+  padding-bottom: 30px;
+}
+
+.project-image {
+  height: 300px;
+}
+
 body {
     font-family: helvetica;
     font-weight: 300;
@@ -693,7 +704,7 @@ a:after {
 
   .col-xs-6{
     width: 325px;
-    margin-left: 20px;
+    margin:5%;
   }
   .work {
     height: 200px;
@@ -701,7 +712,7 @@ a:after {
   }
 
   .content h1 {
-    font-size: 70px;
+    font-size: 60px;
   }
   .content p {
     font-size:3em;
