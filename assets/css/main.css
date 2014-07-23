@@ -11,20 +11,35 @@
 /* ==========================================================================
     Additional Styles
    ========================================================================== */
-.skills {
-    background: #ececec;
-    width: 100%;
+
+#carousel-example-generic {
+  border: 5px solid #222;
+  border-radius: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 75%;
 }
-#portfolio {
-  margin-top: 100px;
+
+.skills {
+  background: #ececec;
+  padding-bottom: 100px;
+  width: 100%;
+}
+.item {
+  width: auto;
+  max-height: 475px;
+}
+.portfolio {
+  min-height: 800px;
+  width: 100%;
 }
 .nav-home{
   font-size: 25px;
   color: #ececec;
 }
 .col-lg-6 a:link {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 
 #contact {
@@ -37,10 +52,6 @@
   text-align: center;
 }
 
-#portfolio {
-  background: #ececec;
-  width: 100%;
-}
 span.icon {
     margin-right: 5px;
 }
@@ -150,7 +161,7 @@ body {
 }
 
 .intro-image {
-  border-radius: 50%;
+  border-radius: 30%;
   display: block;
   height: 300px;
   margin: 30px auto;
@@ -351,35 +362,43 @@ a:after {
 }
 
 .content {
-    margin: 150px auto;
-    position: absolute;
+  margin: 150px auto;
+  position: absolute;
 	text-align:center;
 	width: 100%
 }
 
 .header-wrap {
-    min-height: 800px;
-    max-height: 800px;
+  min-height: 800px;
+  max-height: 800px;
 }
 .header-wrap h1{
-    font-family: helvetica;
-	color:#ffffff;
-	margin-top: 90px;
-	padding-bottom: 30px;
-	letter-spacing: 8px;
+  color:#ffffff;
+  font-family: helvetica;
 	font-size: 100px;
 	font-weight: bold;
+  padding-bottom: 10px;
+  letter-spacing: 8px;
+  margin-top: 90px;
 }
 
-.header-wrap p {
-	font-family: helvetica;
-    color:#ffffff;
-	font-size: 4em;
+.header-wrap h2 {
+  color:#ffffff;
+  font-family: helvetica;
+  font-size: 70px;
+  padding-bottom: 20px;
+}
+
+.blurb {
+  color:#ffffff;
+  font-family: helvetica;
+	font-size: 1.5em;
 	font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 3px;
+  margin: 0 auto;
 	text-align: center;
-	line-height: 40px;
-	letter-spacing: 3px;
-	margin-left: 15px;
+  width: 500px;
 }
 
 #whitewrap {
@@ -720,5 +739,22 @@ a:after {
   .content p {
     font-size:3em;
     line-height: 38px;
+  }
+
+  .portfolio {
+    min-height: 300px;
+    padding-bottom: 50px;
+  }
+
+  .header-wrap h1 {
+    margin-top: 0;
+  }
+
+  .blur {
+    height: 500px;
+  }
+
+  .header-wrap {
+    min-height: 500px;
   }
 }
