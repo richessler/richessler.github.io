@@ -19,6 +19,9 @@
   overflow: hidden;
   width: 75%;
 }
+.carousel-control {
+  border-radius: 20px;
+}
 
 .skills {
   background: #ececec;
