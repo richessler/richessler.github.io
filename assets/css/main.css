@@ -12,6 +12,17 @@
     Additional Styles
    ========================================================================== */
 
+.contact-link {
+  color: #222;
+  padding: 5px;
+}
+
+.contact-link:hover {
+  background-color: #222;
+  border-radius: 20px;
+  color: #ececec;
+}
+
 #carousel-example-generic {
   border: 5px solid #222;
   border-radius: 20px;
@@ -727,37 +738,77 @@ a:after {
 }
 @media all and (max-width:600px) {
 
+  .about-para {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .col-xs-6{
     width: 325px;
     margin:5%;
   }
   .work {
-    height: 200px;
-    margin-left: 5%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 3% 0 5%;
   }
 
+  .carousel-indicators {
+    bottom: -15px;
+  }
+  .carousel-indicators li {
+    height: 12px;
+    width: 12px;
+  }
+
+  .carousel-indicators .active {
+    width: 18px;
+    height: 18px
+  }
+
+  #carousel-example-generic {
+    width: 90%;
+    max-height: 140px;
+  }
+
+  .item {
+    width: auto;
+    max-height: 140px;
+  }
   .content h1 {
     font-size: 50px;
   }
-  .content p {
-    font-size:3em;
+  .content h2 {
+    font-size:45px;
     line-height: 38px;
   }
 
+  .intro-image {
+    height: 250px;
+    width: 250px;
+  }
   .portfolio {
     min-height: 300px;
     padding-bottom: 50px;
   }
 
   .header-wrap h1 {
-    margin-top: 0;
+    margin-top: 50px ;
   }
 
   .blur {
-    height: 500px;
+    height: 600px;
   }
 
   .header-wrap {
-    min-height: 500px;
+    min-height: 600px;
+  }
+
+  .row {
+    margin-right: -15px;
+  }
+
+  .white {
+    width: 100%;
+    margin-right: -15px;
   }
 }
