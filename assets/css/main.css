@@ -14,8 +14,13 @@
 
 .fa-ga img {
   background: rgba(0,0,0,0);
-  margin-top: -20px;
+  margin-top: -5px;
   height: 60px;
+}
+
+.fa-ga img:hover {
+  color: #ececec;
+  -webkit-filter: invert(100%);
 }
 
 .fa {
