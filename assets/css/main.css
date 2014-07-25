@@ -12,6 +12,11 @@
     Additional Styles
    ========================================================================== */
 
+.fa-ga img {
+  background: rgba(0,0,0,0);
+  margin-top: -20px;
+  height: 60px;
+}
 
 .fa {
   color: #222;
