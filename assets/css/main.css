@@ -21,6 +21,10 @@
 .fa-ga img:hover {
   color: #ececec;
   -webkit-filter: invert(100%);
+  -moz-transform: invert(100%);
+  -ms-transform:  invert(100%);
+  -o-transform:   invert(100%);
+  transform:      invert(100%);
 }
 
 .fa {
@@ -163,6 +167,14 @@ body {
     margin: 3% auto;
 }
 
+figure {
+  max-width: 444px;
+}
+
+.img-responsive {
+  max-width: 444px;
+  max-height: 227px;
+}
 .work-1,
 .work-2,
 .work-3 {
@@ -171,7 +183,9 @@ body {
 }
 
 .project-image {
-  height: 300px;
+  max-height: 275px;
+  height: 275px;
+  max-width: 450px;
 }
 
 body {
@@ -181,7 +195,14 @@ body {
     color: #555;
 
     -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+
     -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    -ms-overflow-scrolling: touch;
+    -o-overflow-scrolling: touch;
 }
 
 .intro-image {
@@ -378,11 +399,11 @@ a:after {
   left: 0;
   right: 0;
   z-index: -1;
-  -webkit-filter: grayscale(40%) blur(5px);
-  -moz-filter: blur(4px);
-  -o-filter: blur(4px);
-  -ms-filter: blur(4px);
-  filter: blur(4px);
+  -webkit-filter: grayscale(60%) blur(5px);
+  -moz-filter:    grayscale(60%) blur(4px);
+  -o-filter:      grayscale(60%) blur(4px);
+  -ms-filter:     grayscale(60%) blur(4px);
+  filter:         grayscale(60%) blur(4px);
 }
 
 .content {
@@ -643,6 +664,9 @@ a:after {
 
 /* Caption Style */
 .mask figure {
+  box-shadow: 5px 5px 5px #222;
+  margin-top: 50px;
+  max-width: 450px;
 	overflow: hidden;
 }
 
@@ -785,7 +809,7 @@ a:after {
     max-height: 140px;
   }
   .content h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
   .content h2 {
     font-size:45px;
@@ -820,5 +844,8 @@ a:after {
   .white {
     width: 100%;
     margin-right: -15px;
+  }
+  .project-image{
+    max-height: 180px;
   }
 }

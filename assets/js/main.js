@@ -3,8 +3,25 @@
   var $window = $(window);
   var windowHeight = $window.height();
 
+  // if width is less than 400px, allow images to be clicked for info
+    if ($('body').width() <= 400 ){
+      for (var i = 1; i < 4; i++ )
+      $("#project" + i).wrap($('<a>',{
+        'href': '#myModal' + i,
+        'data-toggle':'modal'
+       }));
+    }
+
   $window.resize(function () {
     windowHeight = $window.height();
+
+    if ($('body').width() <= 400 ){
+      for (var i = 1; i < 4; i++ )
+      $("#project" + i).wrap($('<a>',{
+        'href': '#myModal' + i,
+        'data-toggle':'modal'
+       }));
+    }
   });
 
   $.fn.parallax = function(xpos, speedFactor, outerHeight) {
