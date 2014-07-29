@@ -11,6 +11,39 @@
 /* ==========================================================================
     Additional Styles
    ========================================================================== */
+.modal-body {
+  background-color: rgba(34,34,34, .1);
+  border-radius: 20px;
+  color: #222;
+  margin: 10px auto 0;
+  text-align: justify;
+  width: 90%;
+}
+
+.modal-annoying {
+  text-align: center;
+}
+
+.modal-link {
+  border-radius: 20px;
+  color: #222;
+  padding: 10px;
+  text-align: center;
+}
+
+.modal-link:hover {
+  background-color: #222;
+  border-radius: 20px;
+  color: #ececec;
+  padding: 10px;
+  text-align: center;
+}
+
+.modal-img {
+  border: 2px solid #222;
+  border-radius: 20px;
+  margin: 0 auto;
+}
 
 .fa-ga img {
   background: rgba(0,0,0,0);
@@ -59,6 +92,7 @@
   max-height: 475px;
 }
 .portfolio {
+  margin-bottom: 50px;
   min-height: 800px;
   width: 100%;
 }
@@ -665,7 +699,7 @@ a:after {
 /* Caption Style */
 .mask figure {
   box-shadow: 5px 5px 5px #222;
-  margin-top: 50px;
+  margin: 25px 0;
   max-width: 450px;
 	overflow: hidden;
 }
@@ -821,6 +855,7 @@ a:after {
     width: 250px;
   }
   .portfolio {
+    margin-bottom: 50px;
     min-height: 300px;
     padding-bottom: 50px;
   }
@@ -848,4 +883,8 @@ a:after {
   .project-image{
     max-height: 180px;
   }
+
+.modal-img {
+  width: 90%
+}
 }
