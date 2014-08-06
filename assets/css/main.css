@@ -121,6 +121,13 @@ span.icon {
 .para {
   text-align: justify;
 }
+
+.work-para {
+  padding-bottom: 10px;
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: justify;
+}
 /* ==========================================================================
    Base Styles and Bootstrap Modifications
    ========================================================================== */
@@ -218,9 +225,14 @@ figure {
 
 .project-image {
   border: 1px solid #222;
-  height: 275px;
+  box-shadow: 1px 1px 1px 1px black;
+  margin: 20px auto 0;
   max-height: 275px;
   max-width: 450px;
+}
+
+.project {
+  padding: 0 20px 40px 20px;
 }
 
 body {
@@ -252,6 +264,7 @@ body {
 }
 
 .row {
+padding-top: 20px;
 margin-right: 0px;
 margin-left: -15px;
 }
@@ -793,10 +806,6 @@ a:after {
   background-color: #ececec;
 }
 
-.project {
-  padding: 40px;
-}
-
 a.title {
   margin-top:0;
 }
@@ -908,7 +917,7 @@ a.title {
     margin-right: -15px;
   }
   .project-image{
-    margin: 0 auto;
+    margin: 0 auto 20px;
     max-height: 150px;
   }
 
