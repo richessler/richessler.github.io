@@ -30,17 +30,25 @@
 	      <div class="container">
 	        <div class="navbar-header">
 	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-	            <span class="nav-home">{RH}</span>
+	            <span class="nav-home fa fa-bars fa-lg"></span>
 	          </button>
 	        </div>
 	        <div class="navbar-collapse collapse">
 	          <ul class="nav navbar-nav">
-				      <li><a href="#intro" class="smoothScroll">Intro</a></li>
+				      <li><a href="#intro" class="smoothScroll">{RH}</a></li>
 							<li><a href="#portfolio" class="smoothScroll">Work</a></li>
 							<li><a href="#skills" class="smoothScroll">Skills</a></li>
 							<li><a href="#about" class="smoothScroll">About</a></li>
-							<li><a href="#contact" class="smoothScroll">Contact</a></li>
+							<li><a href="assets/img/portfolio/Resume.pdf" target="_blank">Resume</a></li>
 						</ul>
+
+						<ul class="nav navbar-nav navbar-right">
+            <li><a class="fa fa-github-alt fa-2x contact-link" target="_blank" href="https://github.com/richessler"></a></li>
+            <li><a class="fa fa-linkedin fa-inverse fa-2x contact-link" target="_blank" href="https://www.linkedin.com/pub/richard-hessler/3b/89a/433"></a></li>
+            <li><a class="fa fa-twitter fa-2x twitter" target="_blank" href="https://twitter.com/RJHessler"></a>
+					 	<li><a class="contact-link fa fa-envelope fa-2x" target="_blank" href="mailto:richessler@gmail.com"></a></li>
+            </li>
+          </ul>
 	        </div><!--/.nav-collapse -->
 	      </div>
 	    </div>
@@ -50,11 +58,9 @@
 		<div class="header-wrap" id="intro" name="intro">
 			<div class="blur"></div>
 			<div class="content">
-				<h1>{RICHARD HESSLER}</h1>
-					<h2>web developer</h2>
-            <div class="blurb">
-          </div>
-				</div>
+					<h1>{RICHARD HESSLER}</h1>
+						<h2>web developer</h2>
+			</div>
 	   </div><!-- .background-img -->
 
 		<div id="portfolio"class="portfolio container" name="portolio">
@@ -62,106 +68,50 @@
     	<br>
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 text-center">
-          <h1>What I Make</h1>
+          <h1>WHAT I MAKE</h1>
           <hr>
           <div class="row">
-             <div class="col-md-6">
-				        <div class="grid mask">
-			            <figure>
-			              <img class="project-image img-responsive" id="project1" src="assets/img/portfolio/wine-oh.png" alt="">
-			              <figcaption>
-			                <h5>wine-OH!</h5>
-			                <a data-toggle="modal" href="#myModal1" class="btn btn-primary btn-lg">Take a Look</a>
-			              </figcaption><!-- /figcaption -->
-			            </figure><!-- /figure -->
-		            </div><!-- /grid-mask -->
-			        </div><!-- /col -->
+						<!-- Project one -->
+		        <div class="project row">
+	            <div class="col-md-7">
+	                <a href="https://wine-oh.herokuapp.com/">
+	                    <img class="project-image img-responsive" src="assets/img/portfolio/wine-oh.png" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-5">
+	                <h3><a class="title" href="https://wine-oh.herokuapp.com/">wine-oh!</a></h3>
+	                <p class="para">wine-oh! is a comprehensive wine application designed to allow a user to search for wines, find professional reviews of wines, technical details, price, food pairings, and more. The application will also allow you to locate a store to purchase a specific wine near your zip code.</p>
+	                <a class="btn-primary btn-lg fa fa-github-alt fa-inverse fa-2x contact-link" href="https://github.com/richessler/wine_oh"> Github</a>
+	            </div>
+        		</div>
 
-				       <!-- on click shows preview of app -->
-			        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			          <div class="modal-dialog">
-			            <div class="modal-content">
-			              <div class="modal-header">
-			                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-			                <h4 class="modal-title">wine-OH!</h4>
-			              </div>
-			              <div class="modal-body">
-			                <p><img class="modal-img img-responsive" src="assets/img/portfolio/wine-oh.png" alt=""></p>
-			                <p class="modal-p">wine-oh! is a comprehensive wine application designed to allow a user to search for wines, find professional reviews of wines, technical details, price, food pairings, and more. The application will also allow you to locate a store to purchase a specific wine near your zip code.</p>
-			                <p class="modal-annoying"><b><a class="modal-link" href="https://wine-oh.herokuapp.com/">Let's Drink!</a></b></p>
-			              </div>
-			              <div class="modal-footer">
-			                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			              </div>
-			            </div><!-- /.modal-content -->
-			          </div><!-- /.modal-dialog -->
-			        </div><!-- /.modal -->
+        		<!-- Project two -->
+		        <div class="project project2 row">
+	            <div class="col-md-5">
+                <h3><a class="title" href="http://pokemon-live.herokuapp.com/">Pokémon Live!</a></h3>
+	                <p class="para float-left">Pokemon LIVE! is a real-time application which allows users (trainers) to interact directly with one another in the battle prepa	ration(lobby) area. Trainers can communicate in an open chat format, and challenge one another to duels. These duels take place in the pokemon battlefield and consist of a single-pokemon battle between trainers.</p>
+	                <a class="btn-primary btn-lg fa fa-github-alt fa-inverse fa-2x contact-link" href="https://github.com/yihsiaol/real_time_app"> Github</a>
+	            </div>
+	            <div class="col-xs-7">
+	                <a href="http://pokemon-live.herokuapp.com/">
+	                    <img class="project-image img-responsive float-right" src="assets/img/portfolio/pokemon.png" alt="">
+	                </a>
+	            </div>
+        		</div>
 
-
-			        <!-- PORTFOLIO IMAGE 2 -->
-			        <div class="col-md-6">
-		            <div class="grid mask">
-			            <figure>
-			              <img class="project-image img-responsive" id="project2" src="assets/img/portfolio/pokemon.png" alt="">
-			              <figcaption>
-			                <h5>Pokémon LIVE!</h5>
-			                <a data-toggle="modal" href="#myModal2" class="btn btn-primary btn-lg">Take a Look!</a>
-			              </figcaption><!-- /figcaption -->
-			            </figure><!-- /figure -->
-		            </div><!-- /grid-mask -->
-			        </div><!-- /col -->
-
-
-			        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			          <div class="modal-dialog">
-			            <div class="modal-content">
-			              <div class="modal-header">
-			                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-			                <h4 class="modal-title">Pokémon LIVE!</h4>
-			              </div>
-			              <div class="modal-body">
-			                <p><img class="modal-img img-responsive" src="assets/img/portfolio/pokemon.png" alt=""></p>
-			                <p class="modal-p">Pokemon LIVE! is a real-time application which allows users (trainers) to interact directly with one another in the battle preperation(lobby) area. Trainers can communicate in an open chat format, and challenge one another to duels. These duels take place in the pokemon battlefield and consist of a single-pokemon battle between trainers.</p>
-			                <p class="modal-annoying"><b><a class="modal-link" href="http://pokemon-live.herokuapp.com/">Time to Duel!</a></b></p>
-			              </div>
-			              <div class="modal-footer">
-			                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			              </div>
-			            </div><!-- /.modal-content -->
-			          </div><!-- /.modal-dialog -->
-			        </div><!-- /.modal -->
-
-              <div class="col-md-offset-3 col-md-6">
-			          <div class="grid mask">
-			            <figure>
-			              <img class="project-image img-responsive" id="project3" src="assets/img/portfolio/linkup.jpg" alt="">
-				              <figcaption>
-				                <h5>LinkUp</h5>
-				                <a data-toggle="modal" href="#myModal3" class="btn btn-primary btn-lg">Take a Look</a>
-				              </figcaption><!-- /figcaption -->
-				            </figure><!-- /figure -->
-				          </div><!-- /grid-mask -->
-				        </div><!-- /col -->
-				      </div><!-- /row -->
-
-				      <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-				        <div class="modal-dialog">
-				          <div class="modal-content">
-				            <div class="modal-header">
-				              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				              <h4 class="modal-title">LinkUp</h4>
-				            </div>
-				              <div class="modal-body">
-				                <p><img class="modal-img img-responsive" src="assets/img/portfolio/linkup.jpg" alt=""></p>
-				                <p class="modal-p">LinkUp is the 'Tinder for start-up jobs.' The goal for this project was to recreate a Tinder-like experience where a user can search job listings and make a judgement call whether they're 'Interested' or 'Not Interested.'  The 'Interested' job opportunities are saved to a User's account for further review and potential application submissions.</p>
-				                <p class="modal-annoying"><b><a class="modal-link" href="http://linkup.herokuapp.com/">Lets Hookup</a></b></p>
-				              </div>
-				            <div class="modal-footer">
-				            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			            </div>
-			          </div> <!-- .modal-content -->
-			        </div><!-- .modal-dialog -->
-			      </div><!-- .modal -->
+        		<!-- Project three -->
+		        <div class="project row">
+	            <div class="col-md-7">
+	                <a href="http://linkup.herokuapp.com/">
+	                    <img class="project-image img-responsive" src="assets/img/portfolio/linkup.png" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-5">
+	                <h3><a class="title" href="http://linkup.herokuapp.com/">LinkUp</a></h3>
+	                <p class="para">LinkUp is the 'Tinder for start-up jobs.' The goal for this project was to recreate a Tinder-like experience where a user can search job listings and make a judgement call whether they're 'Interested' or 'Not Interested.'  The 'Interested' job opportunities are saved to a User's account for further review and potential application submissions.</p>
+	                <a class="btn-primary btn-lg fa fa-github-alt fa-inverse fa-2x contact-link" href="https://github.com/richessler/link_up"> Github</a>
+	            </div>
+        		</div>
           </div><!-- /.row (nested) -->
         </div><!-- /.col-lg-10 -->
       </div><!-- /.row -->
@@ -256,34 +206,15 @@
 				<hr>
   				<img class="intro-image desaturate" src="assets/img/portfolio/me5.png">
 
-				<div class="about-para col-lg-6 col-xs-12">
+				<div class="para col-lg-6 col-xs-12">
 					<p>Hi, I'm Richard - an analytically-minded engineer who approaches problems both quantitatively and qualitatively.  My professional ambitions and aspirations are fueled by my passion and obsession for web development and everything tech-related. With that said, I do not believe I would have made it half as far as I have today without my sense of humor or ability to laugh at myself from time-to-time. My goal as a developer is to join forces with a shop whose ideals resonate with my personal interests. I want to put my talents to good use and add value to a cohesive team.</p>
 				</div><!-- col-lg-6 -->
 
-				<div class="about-para col-lg-6 col-xs-12">
-					<p>Formally a Civil Engineer, I have now turned full-stack web developer thanks to the Web Development Immersive course from <a href="http://generalassemb.ly/washington-dc">General Assembly</a> in Washington, D.C. This course has rekindled my love for programming and inspired me to learn anything and everything there is to learn about the industry. When I'm not working through a coding problem or attending local tech meetups, you can usually find me cooking, biking, making wine, or studying for my next level of Sommelier certification.</p>
+				<div class="para col-lg-6 col-xs-12">
+					<p>Formally a Civil Engineer, I have now turned full-stack web developer thanks to the Web Development Immersive course from <strong><a href="http://generalassemb.ly/washington-dc">General Assembly</a></strong> in Washington, D.C. This course has rekindled my love for programming and inspired me to learn anything and everything there is to learn about the industry. When I'm not working through a coding problem or attending local tech meetups, you can usually find me cooking, biking, making wine, or studying for my next level of Sommelier certification.</p>
 				</div><!-- col-lg-6 -->
 			</div><!-- row -->
 		</div><!-- container -->
-
-		<div class="container contact" id="contact" name="contact">
-			<div class="row">
-			<br>
-				<h1 class="centered">WHERE TO FIND ME</h1>
-				<hr>
-				<br>
-				<div class="contact col-lg-12">
-					<ul class="list-inline">
-						<li><a class="contact-link" target="_blank" href="assets/img/portfolio/Resume.pdf"><span class="fa fa-file-text"></span></a><br/></li>
-						<li><a class="contact-link" target="_blank" href="mailto:richessler@gmail.com"><span class="fa fa-envelope"></span></a><br/></li>
-						<li><a class="contact-link" target="_blank" href="https://github.com/richessler"><span class="fa fa-github-alt"></span></a><br/></li>
-						<li><a class="contact-link" target="_blank" href="https://twitter.com/RJHessler"><span class="fa fa-twitter"></span></a><br/></li>
-						<li><a class="contact-link" target="_blank"href="https://www.linkedin.com/pub/richard-hessler/3b/89a/433"><span class="fa fa-linkedin"></span></a></li>
-						<li><a class="contact-link" target="_blank"href="https://alumni.generalassemb.ly/richard-hessler"><span class="fa fa-ga"><img src="assets/img/portfolio/GA_222.png"></span></a></li>
-					</ul>
-				</div><!-- col -->
-			</div>
-		</div>
 
 		<div id="footerwrap">
 			<div class="container">

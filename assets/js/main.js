@@ -12,6 +12,8 @@
        }));
     }
 
+  navSet();
+  //allow images to be clickable on mobile
   $window.resize(function () {
     windowHeight = $window.height();
 

@@ -118,7 +118,7 @@ span.icon {
     margin-right: 5px;
 }
 
-.about-para {
+.para {
   text-align: justify;
 }
 /* ==========================================================================
@@ -217,8 +217,9 @@ figure {
 }
 
 .project-image {
-  max-height: 275px;
+  border: 1px solid #222;
   height: 275px;
+  max-height: 275px;
   max-width: 450px;
 }
 
@@ -523,7 +524,7 @@ a:after {
    Box Sections
    ========================================================================== */
 .white {
-    width: 90%;
+    width: 100%;
     margin: 1% auto 15%;
 }
 
@@ -779,6 +780,43 @@ a:after {
 	background: #f2f2f2;
 }
 
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.project2{
+  background-color: #ececec;
+}
+
+.project {
+  padding: 40px;
+}
+
+.title {
+  color: #222;
+  font-size: 2em;
+  padding-bottom: 30px;
+  text-decoration: underline;
+}
+
+.title:hover {
+  color: #222 ;
+  text-decoration: underline
+}
+
+.btn-lg {
+  border: 1px solid #222;
+  background-color: #222;
+}
+.btn-lg:hover {
+  background-color: #fff;
+  color: #222;
+  border: 1px solid #222;
+}
 
 /* ==========================================================================
    MEDIA QUERIES
@@ -806,7 +844,7 @@ a:after {
 }
 @media all and (max-width:600px) {
 
-  .about-para {
+  .para {
     padding-left: 0;
     padding-right: 0;
   }
@@ -881,10 +919,58 @@ a:after {
     margin-right: -15px;
   }
   .project-image{
+    margin: 0 auto;
     max-height: 180px;
   }
 
 .modal-img {
   width: 90%
 }
+.float-left{
+  float:right;
 }
+
+.float-right {
+  margin-top: 50px;
+  float:left;
+}
+}
+
+
+
+/*
+****************************
+/
+/ Stuff for nav
+/
+/*****************************
+*/
+
+/*#navbar-main, .portfolio {
+    padding:10px;
+}
+#navbar-main {
+    background:#428bca;
+    color:#fff;
+    height:50px;
+    line-height:30px;
+    letter-spacing:1px;
+    width:100%;
+}
+.portfolio {
+    margin-top:10px;
+}
+.menu-padding {
+    padding-top:40px;
+}
+.portfolio p{
+    margin-bottom:20px;
+}
+.sticky {
+    position:fixed;
+    top:0;
+}*/
+
+
+
+
