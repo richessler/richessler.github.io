@@ -229,6 +229,16 @@ figure {
   margin: 20px auto 0;
   max-height: 275px;
   max-width: 450px;
+
+  -webkit-transition: all 0.3s linear;
+  -moz-transition:    all 0.3s linear;
+  -ms-transition:     all 0.3s linear;
+  -o-transition:      all 0.3s linear;
+  transition:         all 0.3s linear;
+}
+
+.project-image:hover {
+    opacity: 0.5;
 }
 
 .project {
