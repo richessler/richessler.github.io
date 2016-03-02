@@ -85,6 +85,14 @@ pre.highlight code,
 .basic-padding {
   padding: 15px;
 }
+
+.gallery-wrapper {
+  max-width: 1200px;
+}
+
+.gallery-inner {
+  width: 100%
+}
 @media all and (min-width: 340px){
   .push {
     height: 0;
