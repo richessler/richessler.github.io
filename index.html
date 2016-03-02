@@ -1,30 +1,24 @@
+---
+layout: default
+---
 
-<html lang="en">
-<head>
-	    <meta charset="utf-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <link rel="shortcut icon" href="assets/img/ico/favicon.ico">
+<div class="main-post-list">
 
-	    <title>I'm Richard</title>
-	    <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <ol class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+        <p class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}&hellip;</p>
+        <div class="post-list__meta"><time datetime="{{ post.date | date: "%-d %b %Y" }}" class="post-list__meta--date date">{{ post.date | date: "%-d %b %Y" }}</time> &#8226; <span class="post-meta__tags">on {% for tag in post.tags %}<a href="{{ site.baseurl }}tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span></div>
+        <hr class="post-list__divider">
+      </li>
+    {% endfor %}
+  </ol>
 
-	    <!-- Custom styles for this template -->
-	    <link href="assets/css/main.css" rel="stylesheet">
-	    <link href="assets/css/animate-custom.css" rel="stylesheet">
-	    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-</head>
+  <hr class="post-list__divider ">
 
-	<body>
-    <div class="parent">
-	        <div class="row child">
-	            <h1 class="col-xs-10 col-xs-offset-1 text-center">
-	                Thanks, just stole all your personal information.
-	            </h1>
-	            <p class="col-xs-10 col-xs-offset-1 text-center">
-	                (lol jk sites under construction and will be up soon, I swear... :D)<br>
-	                    - Richard (:
-	            </p>
-	        </div>
-	    </div>
-	</body>
-</html>
+  {% if paginator.previous_page or paginator.next_page %}
+      {% include pagination.html %}
+  {% endif %}
+
+</div>
