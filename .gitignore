@@ -1,0 +1,7 @@
+*.gz
+*.zip
+.DC_Store
+.jekyll-metadata
+_site
+images
+photos
