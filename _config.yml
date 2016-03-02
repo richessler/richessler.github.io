@@ -63,5 +63,9 @@ gallery:
 contact:
   dir: contact
 #
-gems: ['jekyll-paginate', 'jekyll-gallery-generator', 'jemoji']
+gems:
+  - jekyll-paginate
+  - jekyll-gallery-generator
+  - jemoji
+  - jekyll-sitemap
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
