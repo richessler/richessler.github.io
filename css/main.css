@@ -79,11 +79,26 @@ pre.highlight code,
 
 .text-around {
   width: 50%;
-  float: right;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.normal-image {
+  max-width: 450px !important;
 }
 
 .basic-padding {
   padding: 15px;
+}
+
+.text-center {
+  text-align: center !important;
 }
 
 .gallery-wrapper {
