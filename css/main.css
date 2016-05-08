@@ -141,3 +141,7 @@ pre.highlight code,
     width: 39px;
   }
 }
+
+.post img {
+  max-width: 90% !important;
+}
