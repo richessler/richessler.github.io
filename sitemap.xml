@@ -1,99 +1,262 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>http://www.richardhessler.com/</loc>
-  <lastmod>2016-05-08T23:11:12+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.richardhessler.com/photos/</loc>
-  <lastmod>2016-05-08T23:11:13+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.richardhessler.com/contact/</loc>
-  <lastmod>2016-05-08T23:11:12+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.richardhessler.com/images/resume/Resume.pdf</loc>
-  <lastmod>2016-05-08T23:11:12+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.richardhessler.com/2016/never-trust-a-fart/</loc>
-  <lastmod>2016-05-08T23:11:12+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.richardhessler.com/tags/</loc>
-  <lastmod>2016-05-08T23:11:13+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.richardhessler.com/2016/never-trust-a-fart/index.html</loc>
-  <lastmod>2016-05-08T23:11:12+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.richardhessler.com/2016/no-day-like-bidet/</loc>
-  <lastmod>2016-05-08T23:11:12+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.richardhessler.com/2016/no-day-like-bidet/index.html</loc>
-  <lastmod>2016-05-08T23:11:12+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.richardhessler.com/2016/my-introduction/</loc>
-  <lastmod>2016-05-08T23:11:12+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.richardhessler.com/2016/my-introduction/index.html</loc>
-  <lastmod>2016-05-08T23:11:12+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.richardhessler.com/photos/Week%201%20La%20Paz%20-%20May%2009%202016/</loc>
-  <lastmod>2016-05-08T23:11:13+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.richardhessler.com/photos/El%20Chalten/</loc>
-  <lastmod>2016-05-08T23:11:12+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.richardhessler.com/photos/Torres%20Del%20Paine/</loc>
-  <lastmod>2016-05-08T23:11:13+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.richardhessler.com/photos/El%20Calafate/</loc>
-  <lastmod>2016-05-08T23:11:12+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.richardhessler.com/photos/Amazing%20Race%20-%20Cordoba,%20Argentina%20Mar%2006%202016/</loc>
-  <lastmod>2016-05-08T23:11:12+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.richardhessler.com/photos/Carlos%20Paz%20River%20Bonding,%20Cordoba,%20Argentina%20-%20Mar%2005%202016/</loc>
-  <lastmod>2016-05-08T23:11:12+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.richardhessler.com/photos/Nueva%20Cordoba%20-%20Feb%2028%202016%20-%20Mar%2002%202016/</loc>
-  <lastmod>2016-05-08T23:11:13+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    
+    <url>
+      <loc>http://www.richardhessler.com/2016/never-trust-a-fart/</loc>
+      
+        <lastmod>2016-05-08T13:00:23-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.richardhessler.com/2016/no-day-like-bidet/</loc>
+      
+        <lastmod>2016-03-07T11:39:23-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.richardhessler.com/2016/my-introduction/</loc>
+      
+        <lastmod>2016-03-02T11:04:23-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+  
+    
+    <url>
+      <loc>http://www.richardhessler.com/categories/</loc>
+      
+        <lastmod>2016-05-09T10:46:23-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.richardhessler.com/feed.xml</loc>
+      
+        <lastmod>2016-05-09T10:46:23-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.richardhessler.com/contact/</loc>
+      
+        <lastmod>2016-05-09T10:46:23-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.richardhessler.com/</loc>
+      
+        <lastmod>2016-05-09T10:46:23-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.richardhessler.com/js/main.js</loc>
+      
+        <lastmod>2016-05-09T10:46:23-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+  
+    
+    <url>
+      <loc>http://www.richardhessler.com/tags/</loc>
+      
+        <lastmod>2016-05-09T10:46:23-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.richardhessler.com/photos/Amazing%20Race%20-%20Cordoba,%20Argentina%20Mar%2006%202016/</loc>
+      
+        <lastmod>2016-05-09T10:46:23-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.richardhessler.com/photos/Carlos%20Paz%20River%20Bonding,%20Cordoba,%20Argentina%20-%20Mar%2005%202016/</loc>
+      
+        <lastmod>2016-05-09T10:46:23-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.richardhessler.com/photos/El%20Calafate/</loc>
+      
+        <lastmod>2016-05-09T10:46:23-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.richardhessler.com/photos/El%20Chalten/</loc>
+      
+        <lastmod>2016-05-09T10:46:23-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.richardhessler.com/photos/Nueva%20Cordoba%20-%20Feb%2028%202016%20-%20Mar%2002%202016/</loc>
+      
+        <lastmod>2016-05-09T10:46:23-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.richardhessler.com/photos/Torres%20Del%20Paine/</loc>
+      
+        <lastmod>2016-05-09T10:46:23-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.richardhessler.com/photos/Week%201%20La%20Paz%20-%20May%2009%202016/</loc>
+      
+        <lastmod>2016-05-09T10:46:23-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.richardhessler.com/photos/</loc>
+      
+        <lastmod>2016-05-09T10:46:23-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
 </urlset>
